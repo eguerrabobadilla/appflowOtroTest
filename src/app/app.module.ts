@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import { Pro } from '@ionic/pro';
 
 Pro.init('f0573119', {
-  appVersion: '0.0.1'
+  appVersion: '0.0.2'
 });
 
 @NgModule({

@@ -13,8 +13,11 @@ import { Pro } from '@ionic/pro';
 Pro.init('f0573119', {
   appVersion: '0.0.3'
 });
+console.log("Pro.deploy.getConfiguration()");
 console.log(Pro.deploy.getConfiguration());
+console.log("Pro.deploy.checkForUpdate()");
 console.log(Pro.deploy.checkForUpdate());
+console.log("Pro.deploy.getCurrentVersion()");
 console.log(Pro.deploy.getCurrentVersion());
 
 @NgModule({

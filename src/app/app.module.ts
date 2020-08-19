@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import { Pro } from '@ionic/pro';
 
 Pro.init('f0573119', {
-  appVersion: '0.0.3'
+  appVersion: '0.0.5'
 });
 console.log("Pro.deploy.getConfiguration()");
 console.log(Pro.deploy.getConfiguration());
